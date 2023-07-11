@@ -1,4 +1,5 @@
 import './App.css'
+import { SingleLight } from './components/SingleLight'
 import { Counter } from './components/counter'
 import { Text } from './components/text'
 
@@ -10,6 +11,9 @@ function App() {
 				<Counter text={'rows'} count={0} />
 				<Counter text={'columns'} count={0} />
 			</nav>
+      <div>
+        <SingleLight/>
+      </div>
 		</div>
 	)
 }
